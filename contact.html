@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Dee the Samaritan Charity Foundation</title>
+  <meta name="description" content="Contact Dee the Samaritan Charity Foundation by email, WhatsApp or our contact form. We work in Kayunga and Wakiso Districts, Uganda.">
+  <meta name="theme-color" content="#262161">
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dee the Samaritan Charity Foundation">
+  <meta property="og:title" content="Contact Us | Dee the Samaritan Charity Foundation">
+  <meta property="og:description" content="Contact Dee the Samaritan Charity Foundation by email, WhatsApp or our contact form. We work in Kayunga and Wakiso Districts, Uganda.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/images/logo-mark.svg" alt="" width="52" height="58">
+        <span class="nav__logo-text">
+          <span class="nav__logo-name">Dee the Samaritan</span>
+          <span class="nav__logo-sub">Charity Foundation</span>
+        </span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programmes.html">Programmes</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="testimonials.html">Stories</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="contact.html" class="active" aria-current="page">Contact</a>
+      </div>
+      <div class="nav__actions">
+        <a href="support-us.html" class="btn btn--gold nav__cta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.1C1.1 8.6 3.2 5 6.6 5c2.1 0 3.6 1.2 5.4 3.2C13.8 6.2 15.3 5 17.4 5c3.4 0 5.5 3.6 4.1 6.9C19.5 16.4 12 21 12 21z"/></svg>Donate</a>
+        <button class="nav__burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+    <nav class="nav__mobile" id="mobile-menu" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="programmes.html">Programmes</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="testimonials.html">Stories</a>
+    <a href="faqs.html">FAQs</a>
+    <a href="contact.html" class="active" aria-current="page">Contact</a>
+    <a href="support-us.html" class="btn btn--gold btn--block">Donate now</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container" style="max-width: 820px">
+        <span class="eyebrow eyebrow--gold"><span class="eyebrow__rule"></span>Contact<span class="eyebrow__rule"></span></span>
+        <h1>We'd love to <em>hear from you</em></h1>
+        <p class="lead">Whether you'd like to give, partner with us or simply learn more — send us a message and we'll reply as soon as we can.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split split--top">
+        <div class="card card--bordered card--lg">
+          <h2 style="margin-top: 0">Send us a message</h2>
+          <p class="form__note" style="margin-bottom: 24px">Fields marked optional can be left blank.</p>
+          <!-- Netlify Forms: submissions appear in Netlify → Forms. Set email notifications to Deethesamaritanmother@gmail.com -->
+          <form class="form" id="contact-form" name="contact" method="POST" action="thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden-field"><label>Leave this empty: <input name="bot-field"></label></p>
+            <div class="form__row">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="phone">Phone or WhatsApp <span class="optional">(optional)</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel">
+              </div>
+              <div class="field">
+                <label for="enquiry">I'm getting in touch as a…</label>
+                <select id="enquiry" name="enquiry" required>
+                  <option value="">Please choose</option>
+                  <option>Supporter or donor</option>
+                  <option>Funder or partner organisation</option>
+                  <option>Church or community group</option>
+                  <option>Volunteer</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="message">Your message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div>
+              <button type="submit" class="btn btn--gold">Send message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="split__text">
+          <span class="eyebrow">Other ways to reach us</span>
+          <h2>Get in touch</h2>
+          <div class="contact-list">
+            <div class="contact-list__item">
+              <span class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+              <div><p class="contact-list__label">Email</p><a href="mailto:Deethesamaritanmother@gmail.com">Deethesamaritanmother@gmail.com</a></div>
+            </div>
+            <div class="contact-list__item">
+              <span class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></span>
+              <div><p class="contact-list__label">WhatsApp</p><a href="https://wa.me/256XXXXXXXXX" target="_blank" rel="noopener">Chat with us on WhatsApp</a></div>
+            </div>
+            <div class="contact-list__item">
+              <span class="icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+              <div><p class="contact-list__label">Where we work</p><p>Kayunga &amp; Wakiso Districts, Uganda</p></div>
+            </div>
+          </div>
+          <p class="contact-list__label" style="margin: 32px 0 12px">Follow us</p>
+          <div class="socials"><a href="https://www.facebook.com/share/p/1GWpbdsyn7/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a><a href="https://www.instagram.com/reel/DWzCrl8jUVh/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a><a href="https://vm.tiktok.com/ZN8a1FSNU/" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.88-3.39c.28 0 .54.04.79.1V9.01a6.34 6.34 0 1 0 5.54 6.29V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg></a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0">
+      <div class="container">
+        <!-- TODO: replace with Google Maps embed once Dorcas sends the address:
+             <iframe class="map-embed" src="https://www.google.com/maps/embed?pb=..." title="Map: Dee the Samaritan Charity Foundation" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <div class="map-placeholder" role="img" aria-label="Map placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          Google Map — awaiting address
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="footer__logo">
+            <span class="footer__logo-mark"><img src="assets/images/logo-mark.svg" alt="" width="42" height="47"></span>
+            <span class="footer__logo-name">Dee the Samaritan<br>Charity Foundation</span>
+          </a>
+          <p class="footer__tagline">Restoring Hope. Transforming Lives. Sharing God's Love.</p>
+          <div class="socials"><a href="https://www.facebook.com/share/p/1GWpbdsyn7/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a><a href="https://www.instagram.com/reel/DWzCrl8jUVh/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg></a><a href="https://vm.tiktok.com/ZN8a1FSNU/" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2.88-3.39c.28 0 .54.04.79.1V9.01a6.34 6.34 0 1 0 5.54 6.29V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/></svg></a></div>
+        </div>
+        <nav aria-label="Footer — explore">
+          <p class="footer__heading">Explore</p>
+          <div class="footer__links">
+            <a href="about.html">About us</a>
+            <a href="programmes.html">Programmes</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="testimonials.html">Stories</a>
+          </div>
+        </nav>
+        <nav aria-label="Footer — get involved">
+          <p class="footer__heading">Get involved</p>
+          <div class="footer__links">
+            <a href="support-us.html#donate">Donate</a>
+            <a href="support-us.html#partner">Partner with us</a>
+            <a href="support-us.html#proposal">Funding proposal</a>
+            <a href="faqs.html">FAQs</a>
+          </div>
+        </nav>
+        <div>
+          <p class="footer__heading">Contact</p>
+          <div class="footer__links">
+            <span>Kayunga &amp; Wakiso, Uganda</span>
+            <a href="mailto:Deethesamaritanmother@gmail.com">Deethesamaritanmother@gmail.com</a>
+            <a href="https://wa.me/256XXXXXXXXX" target="_blank" rel="noopener">WhatsApp us</a>
+            <a href="contact.html">Contact form</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span data-year>2026</span> Dee the Samaritan Charity Foundation · Registered as D&amp;E Teenage Mothers Foundation Uganda Limited</span>
+        <span>Website by <a href="https://dmsworks.co.uk" target="_blank" rel="noopener">DMS Works</a></span>
+        <span class="footer__scripture">Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── WHATSAPP FLOAT ──────────────────────────────────────── -->
+  <a href="https://wa.me/256XXXXXXXXX" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.46-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.82 9.82 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.88 9.88m8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.68 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/></svg>
+  </a>
+
+</body>
+</html>
