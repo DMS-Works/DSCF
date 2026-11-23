@@ -24,10 +24,10 @@ and remove the div's `role` and `aria-label`. Gallery images: swap `placeholder.
 - [ ] Address for the Google Map (About + Contact)
 - [ ] Gift amounts `[£ amount]` (Home, Programmes, Support Us)
 - [ ] Donation platform decision → replace the "Online giving is coming soon" card on Support Us
-- [ ] Funding proposal PDF → `assets/docs/`, then update the button on Support Us
+- [x] Funding proposal PDF → `assets/docs/dscf-funding-proposal.pdf` (contact email added on the last page, 23 Nov 2026)
 - [x] Full beneficiary stories (Shakirah, Esther, Malita Isha) + Kilisiru article (added 23 Nov 2026, plus Elvis)
 - [ ] Team: Dorcas and Asiimwe for now (third card removed 23 Nov 2026). Still needed: communities served, registration number
 - [ ] Confirm drafted values and FAQ answers marked `[Dorcas to confirm …]`
-- [ ] Domain → then add sitemap.xml and absolute `og:image` URL
+- [ ] Domain → then add sitemap.xml and absolute `og:image` URL, and add the website address to the funding proposal's last page (next to the email)
 
 Scripture: NKJV (copyright notice in the footer).
