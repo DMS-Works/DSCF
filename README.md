@@ -26,6 +26,7 @@ and remove the div's `role` and `aria-label`. Gallery images: swap `placeholder.
 - [ ] Donation platform decision → replace the "Online giving is coming soon" card on Support Us
 - [ ] Funding proposal PDF → `assets/docs/`, then update the button on Support Us
 - [x] Full beneficiary stories (Shakirah, Esther, Malita Isha) + Kilisiru article (added 23 Nov 2026, plus Elvis)
+- [ ] Field Operations Coordinator (Dorcas's sister): name for the photo credits on the Stories page, plus a portrait for the team section
 - [ ] Team names/roles, communities served, registration number
 - [ ] Confirm drafted values and FAQ answers marked `[Dorcas to confirm …]`
 - [ ] Domain → then add sitemap.xml and absolute `og:image` URL
