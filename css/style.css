@@ -297,6 +297,7 @@ p + p { margin-top: 16px; }
 
 .photo-figure { width: 100%; max-width: 420px; margin: 0; }
 .photo-credit { margin-top: 26px; font-size: 13px; line-height: 1.5; color: var(--text-muted); text-align: center; }
+.photo-credit abbr { text-decoration: none; }
 
 /* ── STATS BAND ───────────────────────────────────────────── */
 .stats { background: var(--brand); color: var(--white); padding: 52px 0; }
