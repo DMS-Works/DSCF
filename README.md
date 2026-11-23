@@ -27,7 +27,7 @@ and remove the div's `role` and `aria-label`. Gallery images: swap `placeholder.
 - [ ] Funding proposal PDF → `assets/docs/`, then update the button on Support Us
 - [x] Full beneficiary stories (Shakirah, Esther, Malita Isha) + Kilisiru article (added 23 Nov 2026, plus Elvis)
 - [ ] Asiimwe (Field Operations Coordinator, Dorcas's sister): portrait for her team card on About (name added 23 Nov 2026)
-- [ ] Team names/roles, communities served, registration number
+- [ ] Team: Dorcas and Asiimwe for now (third card removed 23 Nov 2026). Still needed: communities served, communities served, registration number
 - [ ] Confirm drafted values and FAQ answers marked `[Dorcas to confirm …]`
 - [ ] Domain → then add sitemap.xml and absolute `og:image` URL
 
