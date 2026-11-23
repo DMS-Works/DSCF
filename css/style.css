@@ -301,7 +301,7 @@ p + p { margin-top: 16px; }
 
 /* ── STATS BAND ───────────────────────────────────────────── */
 .stats { background: var(--brand); color: var(--white); padding: 52px 0; }
-.stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; text-align: center; }
+.stats__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 32px; text-align: center; }
 .stat__number { font-family: var(--font-heading); font-size: 54px; font-weight: 600; line-height: 1; }
 .stat__label { margin-top: 10px; font-size: 13px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--brand-soft); }
 
@@ -519,7 +519,7 @@ p + p { margin-top: 16px; }
 .contact-list__item { display: flex; align-items: flex-start; gap: 14px; }
 .contact-list__item p { font-size: 15px; }
 .contact-list__label { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-muted); }
-.contact-list a { font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+.contact-list a { font-weight: 600; text-decoration: none; overflow-wrap: break-word; }
 
 .socials { display: flex; gap: 10px; }
 .socials a {
@@ -547,7 +547,7 @@ p + p { margin-top: 16px; }
 .footer__tagline { font-family: var(--font-heading); font-style: italic; font-size: 15px; color: var(--gold-light); margin: 18px 0; }
 .footer__heading { font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--white); margin-bottom: 16px; }
 .footer__links { display: flex; flex-direction: column; gap: 10px; font-size: 15px; }
-.footer__links a { color: var(--brand-soft); text-decoration: none; overflow-wrap: anywhere; }
+.footer__links a { color: var(--brand-soft); text-decoration: none; overflow-wrap: break-word; }
 .footer__links a:hover { color: var(--white); }
 .site-footer .socials a { background: var(--brand-raised); color: var(--white); }
 .site-footer .socials a:hover { background: var(--gold); color: var(--charcoal); }
@@ -595,6 +595,8 @@ p + p { margin-top: 16px; }
   .founder-caption { margin-top: 24px; }
   .btn-row .btn { flex: 1 1 100%; }
   .stats__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+  .footer__links { gap: 0; }
+  .footer__links a { display: inline-flex; align-items: center; min-height: 40px; }
   .stat__number { font-size: 40px; }
   .stat__label { font-size: 11px; letter-spacing: 1.2px; }
   .whatsapp-float { right: 16px; bottom: 16px; width: 56px; height: 56px; }
