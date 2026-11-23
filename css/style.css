@@ -297,7 +297,7 @@ p + p { margin-top: 16px; }
 
 .photo-figure { width: 100%; max-width: 420px; margin: 0; }
 .photo-credit { margin-top: 26px; font-size: 13px; line-height: 1.5; color: var(--text-muted); text-align: center; }
-.photo-credit abbr { text-decoration: none; }
+.photo-credit a { color: var(--brand); font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
 /* ── STATS BAND ───────────────────────────────────────────── */
 .stats { background: var(--brand); color: var(--white); padding: 52px 0; }
@@ -428,6 +428,8 @@ p + p { margin-top: 16px; }
 .team-member { text-align: center; }
 .team-member__name { font-family: var(--font-heading); font-size: 22px; font-weight: 600; margin-top: 18px; }
 .team-member__role { font-size: 14px; color: var(--text-muted); }
+.team-member__bio { font-size: 15px; max-width: 320px; margin: 12px auto 0; }
+#team, #foc { scroll-margin-top: 110px; }
 
 /* Map */
 .map-placeholder {
