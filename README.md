@@ -25,7 +25,7 @@ and remove the div's `role` and `aria-label`. Gallery images: swap `placeholder.
 - [ ] Gift amounts `[£ amount]` (Home, Programmes, Support Us)
 - [ ] Donation platform decision → replace the "Online giving is coming soon" card on Support Us
 - [ ] Funding proposal PDF → `assets/docs/`, then update the button on Support Us
-- [ ] Full beneficiary stories (Shakirah, Esther, Malita Isha) + Kilisiru article
+- [x] Full beneficiary stories (Shakirah, Esther, Malita Isha) + Kilisiru article (added 23 Nov 2026, plus Elvis)
 - [ ] Team names/roles, communities served, registration number
 - [ ] Confirm drafted values and FAQ answers marked `[Dorcas to confirm …]`
 - [ ] Domain → then add sitemap.xml and absolute `og:image` URL
